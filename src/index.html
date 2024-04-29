@@ -16,21 +16,18 @@
         <img src="../img/Logo Cokelat.png" alt="" class="w-16 mt-10 z-10">
     </div>
 
-    <div id="hero" class="relative w-full h-screen bg-amber-50 flex justify-center items-center overflow-hidden">
-        <img src="../img/hero-ornamen.png" alt="" class="z-0 absolute w-2/3 bottom-[-400px] opacity-50">
-        <img src="../img/hero-daun.png" alt="" class="z-0 absolute bottom-[-40px] w-6/7 opacity-60">
+    <div id="hero" class="relative w-full h-auto sm:h-auto md:h-screen lg:h-screen bg-amber-50 flex justify-center items-center overflow-hidden">
+        <img src="../img/hero-ornamen.png" alt="" class="z-0 absolute w-full sm:w-full md:w-full lg:w-2/3 bottom-[-150px] sm:bottom-[-150px] md:bottom-[-20px] lg:bottom-[-400px] opacity-50">
+        <img src="../img/hero-daun.png" alt="" class="z-0 absolute bottom-[10px] sm:bottom-[10px] md:bottom-[-20px] lg:bottom-[-40px] w-6/7 opacity-60">
+        <img src="../img/hero-kue.png" alt="" class="z-5 absolute bottom-[5px] sm:bottom-[5px] md:bottom-[-400px] lg:bottom-[-80px] px-2 sm:px-2 md:px-5 lg:px-10" data-aos="zoom-in-up" data-aos-delay="400">
 
-        <img src="../img/hero-kue.png" alt="" class="z-5 absolute  bottom-[-80px] pl-10" data-aos="zoom-in-up"
-            data-aos-delay="400">
-
-        <div class="hero-text flex flex-col justify-center items-center pb-[360px] z-10" data-aos="fade-up"
-            data-aos-delay="300">
+        <div class="hero-text flex flex-col justify-center items-center mt-10 pb-[250px] sm:pb-[250px] md:pb-[360px] lg:pb-[360px] z-10 overflow-hidden" data-aos="fade-up" data-aos-delay="300">
             <div class="headline">
-                <h1 class="text-6xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-7xl text-brown-mou mb-3">Mille Crepes Pontianak
+                <h1 class="text-5xl sm:text-5xl md:text-5xl lg:text-6xl text-brown-mou mb-3 break-words text-center">Mille Crepes Pontianak
                 </h1>
             </div>
             <div class="isiheadline">
-                <h4 class="text-xl leading-6 text-amber-700 w-[40rem] r-12 text-center">
+                <h4 class="text-lg sm:text-lg md:text-lg xl:text-xl leading-6 text-amber-700 max-w-[40rem] mx-auto px-10 md:px-10 text-center">
                     Kami menyediakan mille crepes premium dengan harga yang terjangkau, cocok untuk menemanimu menjalani hari
                 </h4>
             </div>
@@ -45,31 +42,31 @@
     </div>
 
     <div id="cerita-kami"
-        class="flex flex-col justify-center items-center text-zinc-800 bg-brown-mou px-20 pt-16 pb-24 overflow-hidden relative">
+        class="flex flex-col justify-center items-center text-zinc-800 bg-brown-mou px-5 pt-16 pb-24 sm:px-5 md:px-10 lg:px20 overflow-hidden relative">
         <img src="../img/background-cerita.png" alt="" class="absolute bottom-0 w-2/3 opacity-10">
         <h1 class=" text-center text-3xl mb-3 text-amber-50 z-10" data-aos="fade-up" data-aos-delay="200">Cerita Kami
         </h1>
-        <h4 class="text-center text-lg leading-6  w-3/6 text-amber-50 z-10" data-aos="fade-up" data-aos-delay="300">
+        <h4 class="text-center text-lg sm:text-lg md:text-lg xl:text-lg leading-6 w-5/6 sm:w-5/6 md:w-4/5 lg:w-3/6 text-amber-50 z-10" data-aos="fade-up" data-aos-delay="300">
             Kami menyadari bahwa kue bukan sekadar makanan penutup, ada momen yang terselip dalam setiap kue yang dinikmati, kami ingin memberikan pengalaman yang menyenangkan kepada pelanggan kami dengan menyediakan kue premium dengan harga yang terjangkau, ini menjadi pondasi awal kami menciptakan Mou
         </h4>
     </div>
 
-    <div id="foto-kulkas" class="h-[30rem] bg-black overflow-clip">
+    <div id="foto-kulkas" class="h-[10rem] sm:h-[10rem] md:h-[20rem] lg:h-[30rem] overflow-clip">
         <img src="../img/Kulkas.jpg" alt="" class="w-full h-full object-cover">
     </div>
 
     <div id="produk" class="bg-amber-50 py-12 flex flex-col justify-center items-center relative">
         <h1 class="text-3xl text-dark-brown-mou mb-3" data-aos="fade-up" data-aos-delay="200">Produk Kami</h1>
-        <h4 class="text-dark-brown-mou" data-aos="fade-up" data-aos-delay="300">
+        <h4 class="text-dark-brown-mou text-center px-10" data-aos="fade-up" data-aos-delay="300">
             Kami menyediakan berbagai varian mille crepes premium dan kue fresh lain untuk pelanggan kami
         </h4>
 
         <div class="wrapper mt-10 mb-10 z-10">
             <div class=" cards">
-
-                <div class="card-wrapper rounded-xl mb-10 z-10">
-                    <div class="card relative">
-                        <img src="../img/produk/tiramisu.png" alt="" class="h-[26rem] rounded-xl">
+                <!-- Tiramisu -->
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
+                    <div class="card relative ">
+                        <img src="../img/produk/tiramisu.png" alt="" class="h-[15rem] sm:h-[15rem] lg:h-[26rem] rounded-xl">
                         <div class="produk-info absolute top-6 left-8">
                             <h1 class="text-white text-2xl">Tiramisú mille crepes</h1>
                             <h4 class="text-white text-sm">18k/slice | 145k/loyang</h4>
@@ -78,9 +75,9 @@
                 </div>
 
                 <!-- Caramel -->
-                <div class="card-wrapper rounded-xl mb-10 z-10">
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
                     <div class="card relative">
-                        <img src="../img/produk/caramou.png" alt="" class="h-[26rem] rounded-xl">
+                        <img src="../img/produk/caramou.png" alt="" class="h-[15rem] sm:h-[15rem] lg:h-[26rem] rounded-xl">
                         <div class="produk-info absolute top-6 left-8">
                             <h1 class="text-white text-2xl">Caramou mille crepes</h1>
                             <h4 class="text-white text-sm">20k/slice | 160k/loyang</h4>
@@ -89,9 +86,9 @@
                 </div>
 
                 <!-- Matcha -->
-                <div class="card-wrapper rounded-xl mb-10 z-10">
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
                     <div class="card relative">
-                        <img src="../img/produk/moucha.png" alt="" class="h-[26rem] rounded-xl">
+                        <img src="../img/produk/moucha.png" alt="" class="h-[15rem] sm:h-[15rem] lg:h-[26rem] rounded-xl">
                         <div class="produk-info absolute top-6 left-8">
                             <h1 class="text-white text-2xl">Moucha mille crepes</h1>
                             <h4 class="text-white text-sm">17k/slice | 135k/loyang</h4>
@@ -100,9 +97,9 @@
                 </div>
 
                 <!-- Mouberry Mini Cake -->
-                <div class="card-wrapper rounded-xl mb-10 z-10">
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
                     <div class="card relative">
-                        <img src="../img/produk/mouberry.png" alt="" class="h-[26rem] rounded-xl">
+                        <img src="../img/produk/mouberry.png" alt="" class="h-[15rem] sm:h-[15rem] lg:h-[26rem] rounded-xl">
                         <div class="produk-info absolute top-6 left-8">
                             <h1 class="text-white text-2xl">Mouberry mini cake</h1>
                             <h4 class="text-white text-sm">35k/pcs</h4>
@@ -111,9 +108,9 @@
                 </div>
 
                 <!-- Custom Bento Cake -->
-                <div class="card-wrapper rounded-xl mb-4 z-10">
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
                     <div class="card relative">
-                        <img src="../img/produk/custom-bento.png" alt="" class="h-[26rem] rounded-xl">
+                        <img src="../img/produk/custom-bento.png" alt="" class="h-[15rem] sm:h-[15rem] lg:h-[26rem] rounded-xl">
                         <div class="produk-info absolute top-6 left-8">
                             <h1 class="text-white text-2xl">Custom bento cake</h1>
                             <h4 class="text-white text-sm">Start from 65k</h4>
@@ -122,9 +119,9 @@
                 </div>
 
                 <!-- Cover -->
-                <div class="card-wrapper rounded-xl mb-20 z-10">
+                <div class="card-wrapper rounded-xl mb-10 z-10 flex justify-center items-center">
                     <div class="card relative">
-                        <img src="../img/produk/cover.png" alt="" class="h-[30rem] rounded-xl">
+                        <img src="../img/produk/cover.png" alt="" class="h-[18rem] sm:h-[18rem] lg:h-[30rem] rounded-xl">
 
                     </div>
                 </div>
@@ -135,13 +132,13 @@
     </div>
 
     <div id="kenapa-mou"
-        class="flex flex-col justify-center items-center bg-dark-brown-mou px-20 pt-12 pb-20 overflow-hidden relative" ">
+        class="flex flex-col justify-center items-center bg-dark-brown-mou px-20 pt-12 pb-20 overflow-hidden relative">
 
         <h1 class=" text-center text-3xl mb-12 text-amber-50" data-aos="fade-up" data-aos-delay="200">Kenapa Harus Mou?
         </h1>
 
-        <div class=" kenapamou-wrapper flex flex-row gap-32" data-aos="fade-up" data-aos-delay="300">
-            <div class=" kenapamou-premium w-60">
+        <div class="kenapamou-wrapper flex flex-col sm:flex-row gap-20 sm:gap-20 md:gap-25 lg:gap-32" data-aos="fade-up" data-aos-delay="300">
+            <div class="kenapamou-premium w-60">
                 <div class="kenapamou-icon mb-2">
                     <i class="fa-solid fa-star fa-xl" style="color : #ffffff"></i>
                 </div>
@@ -175,13 +172,13 @@
         <div class="testimoni-judul flex flex-col justify-center items-center z-10">
             <h1 class=" text-center text-3xl text-dark-brown-mou mb-3" data-aos="fade-up" data-aos-delay="200">Testimoni
             </h1>
-            <h4 class="text-dark-brown-mou" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="text-dark-brown-mou text-center break-words px-10" data-aos="fade-up" data-aos-delay="300">
                 Ini kata mereka tentang Mille crepes dari Mou
             </h4>
         </div>
         <img src="../img/ceritakami-ornament.png" alt="" class="z-0 opacity-5 absolute">
         <div class="testimoni-kartu z-10">
-            <swiper-container class="mySwiper swiper-container px-20 py-20" space-between="12" slides-per-view="4"
+            <swiper-container class="mySwiper swiper-container px-20 py-20 " space-between="12" slides-per-view="4"
                 effect="slide" navigation="false" pagination="false" autoplay-delay="5000"
                 autoplay-disable-on-interaction="false" autoplay-reverse-direction="false" loop="true"
                 allow-touch-move="false" prevent-clicks="false">
@@ -235,7 +232,7 @@
     </div>
 
     <div class="copyright h-10 flex justify-center items-center bg-dark-brown-mou">
-        <h4 class="text-amber-50 text-sm">
+        <h4 class="text-amber-50 text-sm break-words">
             <center> Copyright © 2024, Mou Crepes. All Rights Reserved.</center>
         </h4>
     </div>
