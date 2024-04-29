@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'YesevaOne';
+        src: url('../font/YesevaOne-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'MonaMedium';
+        src: url('../font/MonaSans-Medium.ttf');
+    }
+
+    h1 {
+        font-family: YesevaOne;
+    }
+
+    h4 {
+        font-family: MonaMedium;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        position: relative;
+    }
+
+    swiper-container {
+        width: 100%;
+    }
+
+    swiper-slide {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    swiper-container::part(bullet-active) {
+        background-color: #984212;
+
+    }
+
+}
