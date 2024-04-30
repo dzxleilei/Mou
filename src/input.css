@@ -5,12 +5,12 @@
 @layer base {
     @font-face {
         font-family: 'YesevaOne';
-        src: url('../font/YesevaOne-Regular.ttf');
+        src: url('./font/YesevaOne-Regular.ttf');
     }
 
     @font-face {
         font-family: 'MonaMedium';
-        src: url('../font/MonaSans-Medium.ttf');
+        src: url('./font/MonaSans-Medium.ttf');
     }
 
     h1 {

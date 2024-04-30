@@ -19,6 +19,7 @@ cardsWrappers.forEach((wrapper, i) => {
         scale = 0.9 + 0.025 * i;
         rotation = -10;
     }
+    const endValue = window.innerWidth <= 768 ? "bottom 350" : "bottom 550";
     gsap.to(card, {
         scale: scale,
         rotationX: rotation,
@@ -27,7 +28,7 @@ cardsWrappers.forEach((wrapper, i) => {
         scrollTrigger: {
             trigger: wrapper,
             start: "top " + (60 + 10 * i),
-            end: "bottom 550",
+            end: endValue,
             endTrigger: ".wrapper",
             scrub: true,
             pin: wrapper,
@@ -36,6 +37,37 @@ cardsWrappers.forEach((wrapper, i) => {
         }
     });
 });
+
+//Animasi Swiper
+var mySwiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 12,
+    effect: 'slide',
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        reverseDirection: false,
+    },
+    allowTouchMove: false,
+    preventClicks: false,
+    // Breakpoints to adjust slidesPerView based on screen size
+    breakpoints: {
+        // When window width is <= 768px (mobile devices)
+        768: {
+            slidesPerView: 4 // Display only 1 slide
+        },
+    }
+});
+
 
 // Get the button
 let mybutton = document.getElementById("button-up");
